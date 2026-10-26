@@ -224,7 +224,8 @@ main p { max-width: 40rem; }
 }
 
 @media (min-width: 40rem) {
-  .paper { grid-template-columns: 13rem 1fr; gap: 1.4rem; }
+  .paper { grid-template-columns: 1fr 13rem; gap: 1.4rem; }
+  .paper .thumb { order: 2; }
   .paper-plain { grid-template-columns: 1fr; }
   .thumb { max-width: none; }
 }
